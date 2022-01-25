@@ -1,3 +1,2 @@
-- 👋 Hi, I’m @vitoriastm!
-- 👀 I’m a beginner programmer trying to learn more!
-- 🌱 I’m currently learning HTML, CSS and JavaScript. And I already have a basic knowledge about Python.
+Hi
+Currently learning HTML, CSS and JavaScript. Already have a basic knowledge about Python.
