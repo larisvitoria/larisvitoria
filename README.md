@@ -78,8 +78,6 @@ Graduanda em Engenharia de Computação pela Universidade Federal do Ceará (UFC
 <br/>
 <br/>
 
----
-
 ### Estatísticas
 
 <p>
