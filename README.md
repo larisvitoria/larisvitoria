@@ -9,7 +9,7 @@ Graduanda em Engenharia de Computação pela Universidade Federal do Ceará (UFC
         <img 
             alt="LinkedIn Seguidores"
             title="Conecte-se comigo no LinkedIn"
-            src="https://custom-icon-badges.demolab.com/badge/LinkedIn-%2B200-%230A66C2?logo=linkedin&logoColor=white&style=for-the-badge&labelColor=0A66C2"
+            src="https://custom-icon-badges.demolab.com/badge/LinkedIn-%2B300-%230A66C2?logo=linkedin&logoColor=white&style=for-the-badge&labelColor=0A66C2"
         />
     </a>
   <a href="mailto:larissa.vitoria@alu.ufc.br" target="_blank">
