@@ -19,14 +19,14 @@
   <g clip-path="url(#barClip)">
     <rect x="30" y="58" width="390" height="10"
           fill="#F0D8E2"/>
-    <rect x="30.00" y="58" width="171.26" height="10" fill="#3572A5"/><rect x="201.26" y="58" width="92.20" height="10" fill="#f34b7d"/><rect x="293.46" y="58" width="73.51" height="10" fill="#b07219"/><rect x="366.97" y="58" width="40.66" height="10" fill="#DA5B0B"/><rect x="407.63" y="58" width="5.18" height="10" fill="#663399"/><rect x="412.81" y="58" width="4.78" height="10" fill="#e34c26"/><rect x="417.60" y="58" width="2.40" height="10" fill="#427819"/>
+    <rect x="30.00" y="58" width="171.69" height="10" fill="#3572A5"/><rect x="201.69" y="58" width="92.02" height="10" fill="#f34b7d"/><rect x="293.70" y="58" width="73.37" height="10" fill="#b07219"/><rect x="367.07" y="58" width="40.58" height="10" fill="#DA5B0B"/><rect x="407.66" y="58" width="5.17" height="10" fill="#663399"/><rect x="412.83" y="58" width="4.77" height="10" fill="#e34c26"/><rect x="417.60" y="58" width="2.40" height="10" fill="#427819"/>
   </g>
   
         <g transform="translate(30.0, 92)">
           <circle cx="6" cy="-4" r="6" fill="#3572A5"/>
           <text x="20" fill="#333333" font-size="13">Python</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">43.9%</text>
+                font-size="12.5">44.0%</text>
         </g>
         <g transform="translate(225.0, 92)">
           <circle cx="6" cy="-4" r="6" fill="#f34b7d"/>
