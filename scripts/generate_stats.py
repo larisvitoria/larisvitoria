@@ -261,7 +261,6 @@ def render_stats_svg(stats: dict) -> str:
         ("commit", "Commits", stats["commits"]),
         ("pull_request", "Pull Requests", stats["prs"]),
         ("issue", "Issues", stats["issues"]),
-        ("eye", "Reviews", stats["reviews"]),
         ("package", "Repositórios", stats["repos"]),
     ]
 
