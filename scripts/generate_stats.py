@@ -10,6 +10,10 @@ TEXT_COLOR = "#333333"
 MUTED_COLOR = "#9B7385"
 BORDER_COLOR = "#FFC4DA"
 BG_COLOR = "#FFF5F8"
+PINK_SHADES = [
+    "#AD1457", "#D81B60", "#FF1493", "#FF4FA3", "#FF74B4",
+    "#FF93C6", "#FFB0D4", "#FFC9E1", "#FFE0EE",
+]
 
 FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
@@ -322,12 +326,13 @@ def render_langs_svg(languages: dict, top_n: int = 9) -> str:
 
     segments = ""
     seg_x = bar_x0
-    for name, info in top:
+    for i, (name, info) in enumerate(top): 
+        color = PINK_SHADES[i % len(PINK_SHADES)]
         pct = info["size"] / total_size
         seg_width = bar_width * pct
         segments += (
             f'<rect x="{seg_x:.2f}" y="{bar_y}" width="{seg_width:.2f}" '
-            f'height="{bar_h}" fill="{info["color"]}"/>'
+            f'height="{bar_h}" fill="{color}"/>'
         )
         seg_x += seg_width
 
@@ -336,6 +341,7 @@ def render_langs_svg(languages: dict, top_n: int = 9) -> str:
     grid_start_y = 92
     rows = ""
     for i, (name, info) in enumerate(top):
+        color = PINK_SHADES[i % len(PINK_SHADES)]
         pct = 100 * info["size"] / total_size
         col = i % 2
         row = i // 2
@@ -343,7 +349,7 @@ def render_langs_svg(languages: dict, top_n: int = 9) -> str:
         gy = grid_start_y + row * row_height
         rows += f"""
         <g transform="translate({gx:.1f}, {gy})">
-          <circle cx="6" cy="-4" r="6" fill="{info['color']}"/>
+          <circle cx="6" cy="-4" r="6" fill="{color}"/> 
           <text x="20" fill="{TEXT_COLOR}" font-size="13">{name}</text>
           <text x="{col_width - 12:.1f}" text-anchor="end" fill="{MUTED_COLOR}"
                 font-size="12.5">{pct:.1f}%</text>
