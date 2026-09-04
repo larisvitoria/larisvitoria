@@ -1,98 +1,66 @@
-<h1 align="left">Larissa Vitória</h2>
+<div align="center">
+<img src="./assets/header.svg" alt="Larissa Vitória" width="100%"/>
+</div>
 
-**`Analista de Dados`** **`Desenvolvedora Back-End`**
+<p align="center" style="max-width: 600px;">
+Graduanda em Engenharia de Computação pela Universidade Federal do Ceará (UFC).
+Atuo como Analista de Dados com foco em <b>dados geoespaciais</b> e como <b>Desenvolvedora Python</b>,
+com experiência em <b>back-end georreferenciados</b> e <b>sistemas especialistas</b>.
+</p>
 
-Graduanda em Engenharia de Computação pela Universidade Federal do Ceará (UFC). Atuo como Analista de Dados com foco em dados geoespaciais e como Desenvolvedora Python, com experiência em back-end e sistemas especialistas.
-
-<p align="left">
+<p align="center">
     <a href="https://www.linkedin.com/in/larisvitoria/">
         <img 
-            alt="LinkedIn Seguidores"
+            alt="LinkedIn"
             title="Conecte-se comigo no LinkedIn"
-            src="https://custom-icon-badges.demolab.com/badge/LinkedIn-%2B300-%230A66C2?logo=linkedin&logoColor=white&style=for-the-badge&labelColor=0A66C2"
+            src="https://custom-icon-badges.demolab.com/badge/LinkedIn-%2B300-FF1493?logo=linkedin&logoColor=white&style=for-the-badge&labelColor=FF1493"
         />
     </a>
-  <a href="mailto:larissa.vitoria@alu.ufc.br" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
+    <a href="mailto:larissa.vitoria@alu.ufc.br" target="_blank">
+        <img 
+            alt="Gmail"
+            src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=FF1493&logoColor=white&labelColor=FF1493&style=for-the-badge"
+        />
+    </a>
 </p>
-
----
-
-### Linguagens e Tecnologias
-
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
-
-<img 
-    align="left" 
-    alt="Pandas" 
-    title="Pandas"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://images.seeklogo.com/logo-png/48/2/pandas-icon-logo-png_seeklogo-483545.png"         
-/>
-
-<img 
-    align="left" 
-    alt="Django" 
-    title="Django"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://www.svgrepo.com/show/353657/django-icon.svg"         
-/>
-
-<img 
-    align="left" 
-    alt="C++" 
-    title="C++"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://devicons.io/devicons/icons/c-plusplus.svg" 
-/>
-
-<img 
-    align="left" 
-    alt="Docker" 
-    title="Docker"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://www.kevinmcox.com/wordpress/wp-content/uploads/2022/12/DockerDesktop.png" 
-/>
-
-<img 
-    align="left" 
-    alt="QGIS" 
-    title="QGIS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/QGIS_logo_new.svg/330px-QGIS_logo_new.svg.png?_=20180406083750" 
-/>
 
 <br/>
+
+<h3 align="center">Atualmente</h3>
+
+<p align="center">
+Estudando temas aplicados a dados geoespaciais:
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=&message=GeoIA&color=FF1493&style=flat-square"/>
+  <img src="https://img.shields.io/static/v1?label=&message=Geoestatística&color=FF1493&style=flat-square"/>
+  <img src="https://img.shields.io/static/v1?label=&message=Otimização&color=FF1493&style=flat-square"/>
+</p>
+
 <br/>
 
-### Estatísticas
+<h3 align="center">Stack</h3>
 
-<p>
-    <div align="center">
-      <img
-        height="180"
-        src="https://github-readme-stats-sigma-five.vercel.app/api?username=larisvitoria&show_icons=true&theme=react&include_all_commits=true&locale=pt-br"
-      />
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <img
-        height="180"
-        src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=larisvitoria&layout=compact&custom_title=Tecnologias&langs_count=9&theme=react"
-      />
-    </div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-FF1493?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-FF1493?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django-FF1493?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-FF1493?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-FF1493?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/QGIS-FF1493?style=for-the-badge&logo=qgis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostGIS-FF1493?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </p>
 
+<br/>
 
+<h3 align="center">Estatísticas</h3>
+
+<p align="center">
+    <img height="180" src="./assets/stats.svg" alt="Estatísticas do GitHub" />
+    <img height="180" src="./assets/top-langs.svg" alt="Tecnologias" />
 </p>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFD1DC,100:FF1493&height=6&width=1000" alt=""/>
+</div>
