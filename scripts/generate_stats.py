@@ -7,7 +7,11 @@ import requests
 TITLE_COLOR = "#FF1493"
 ICON_COLOR = "#FF1493"
 TEXT_COLOR = "#333333"
+MUTED_COLOR = "#9B7385"
+BORDER_COLOR = "#FFC4DA"
 BG_COLOR = "#FFF5F8"
+
+FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
 GRAPHQL_URL = "https://api.github.com/graphql"
 
@@ -261,81 +265,114 @@ def render_stats_svg(stats: dict) -> str:
         ("package", "Repositórios", stats["repos"]),
     ]
 
-    line_height = 25
-    start_y = 50
+    width, height = 450, 215
+    line_height = 24
+    start_y = 82
     body = ""
     for i, (icon, label, value) in enumerate(rows):
         y = start_y + i * line_height
         body += f"""
-        <g transform="translate(25, {y})">
-          {render_icon(icon, 10, -4)}
-          <text x="30" fill="{TEXT_COLOR}" font-size="14">{label}:</text>
-          <text x="230" fill="{TEXT_COLOR}" font-size="14" font-weight="600">{value}</text>
+        <g transform="translate(30, {y})">
+          {render_icon(icon, 12, -5)}
+          <text x="34" fill="{TEXT_COLOR}" font-size="14">{label}</text>
+          <text x="270" text-anchor="end" fill="{TEXT_COLOR}"
+                font-size="14" font-weight="600">{value}</text>
         </g>"""
 
     rank = stats["rank"]
 
-    return f"""<svg width="420" height="180" viewBox="0 0 420 180"
-     xmlns="http://www.w3.org/2000/svg" role="img"
+    return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}"
+     xmlns="http://www.w3.org/2000/svg" font-family="{FONT}" role="img"
      aria-label="Estatísticas do GitHub">
-  <rect x="0.5" y="0.5" rx="12" width="419" height="179"
-        fill="{BG_COLOR}" stroke="none"/>
-  <text x="25" y="30" font-size="18" font-weight="700"
+  <defs>
+    <filter id="cardShadow" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4"
+                    flood-color="{TITLE_COLOR}" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" rx="14" width="{width - 2}" height="{height - 2}"
+        fill="{BG_COLOR}" stroke="{BORDER_COLOR}" stroke-width="1"
+        filter="url(#cardShadow)"/>
+  <text x="30" y="42" font-size="19" font-weight="700"
         fill="{TITLE_COLOR}">Estatísticas do GitHub</text>
+  <line x1="30" y1="56" x2="300" y2="56"
+        stroke="{BORDER_COLOR}" stroke-width="1.5"/>
   {body}
-  <g transform="translate(355, 90)">
-    <circle r="35" fill="none" stroke="{ICON_COLOR}" stroke-width="5"
-            opacity="0.25"/>
-    <circle r="35" fill="none" stroke="{ICON_COLOR}" stroke-width="5"
+  <g transform="translate(378, 132)">
+    <circle r="35" fill="none" stroke="{ICON_COLOR}" stroke-width="6"
+            opacity="0.18"/>
+    <circle r="35" fill="none" stroke="{ICON_COLOR}" stroke-width="6"
+            stroke-linecap="round"
             stroke-dasharray="220" stroke-dashoffset="55"
             transform="rotate(-90)"/>
-    <text text-anchor="middle" dy="6" font-size="20" font-weight="700"
+    <text text-anchor="middle" dy="7" font-size="22" font-weight="700"
           fill="{TITLE_COLOR}">{rank}</text>
   </g>
 </svg>"""
 
 
 def render_langs_svg(languages: dict, top_n: int = 9) -> str:
+    width, height = 450, 215
     total_size = sum(v["size"] for v in languages.values()) or 1
     top = sorted(languages.items(), key=lambda kv: kv[1]["size"], reverse=True)[:top_n]
 
-    bar_x = 25
-    bar_width = 370
+    bar_x0 = 30
+    bar_y = 58
+    bar_width = width - 60
+    bar_h = 10
+
     segments = ""
+    seg_x = bar_x0
     for name, info in top:
         pct = info["size"] / total_size
         seg_width = bar_width * pct
         segments += (
-            f'<rect x="{bar_x}" y="45" width="{seg_width:.2f}" height="8" '
-            f'rx="4" fill="{info["color"]}"/>'
+            f'<rect x="{seg_x:.2f}" y="{bar_y}" width="{seg_width:.2f}" '
+            f'height="{bar_h}" fill="{info["color"]}"/>'
         )
-        bar_x += seg_width
+        seg_x += seg_width
 
+    col_width = (width - 60) / 2
+    row_height = 26
+    grid_start_y = 92
     rows = ""
-    col_width = 190
-    row_height = 22
     for i, (name, info) in enumerate(top):
         pct = 100 * info["size"] / total_size
         col = i % 2
         row = i // 2
-        x = 25 + col * col_width
-        y = 75 + row * row_height
+        gx = bar_x0 + col * col_width
+        gy = grid_start_y + row * row_height
         rows += f"""
-        <g transform="translate({x}, {y})">
-          <circle cx="5" cy="-4" r="5" fill="{info['color']}"/>
-          <text x="16" fill="{TEXT_COLOR}" font-size="13">{name}</text>
-          <text x="16" y="0" dx="{len(name) * 7 + 8}" fill="{TEXT_COLOR}"
-                font-size="12" opacity="0.75">{pct:.1f}%</text>
+        <g transform="translate({gx:.1f}, {gy})">
+          <circle cx="6" cy="-4" r="6" fill="{info['color']}"/>
+          <text x="20" fill="{TEXT_COLOR}" font-size="13">{name}</text>
+          <text x="{col_width - 12:.1f}" text-anchor="end" fill="{MUTED_COLOR}"
+                font-size="12.5">{pct:.1f}%</text>
         </g>"""
 
-    return f"""<svg width="420" height="180" viewBox="0 0 420 180"
-     xmlns="http://www.w3.org/2000/svg" role="img"
+    return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}"
+     xmlns="http://www.w3.org/2000/svg" font-family="{FONT}" role="img"
      aria-label="Linguagens mais usadas">
-  <rect x="0.5" y="0.5" rx="12" width="419" height="179"
-        fill="{BG_COLOR}" stroke="none"/>
-  <text x="25" y="30" font-size="18" font-weight="700"
+  <defs>
+    <filter id="langShadow" x="-8%" y="-8%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4"
+                    flood-color="{TITLE_COLOR}" flood-opacity="0.15"/>
+    </filter>
+    <clipPath id="barClip">
+      <rect x="{bar_x0}" y="{bar_y}" width="{bar_width}" height="{bar_h}"
+            rx="{bar_h / 2}"/>
+    </clipPath>
+  </defs>
+  <rect x="1" y="1" rx="14" width="{width - 2}" height="{height - 2}"
+        fill="{BG_COLOR}" stroke="{BORDER_COLOR}" stroke-width="1"
+        filter="url(#langShadow)"/>
+  <text x="30" y="42" font-size="19" font-weight="700"
         fill="{TITLE_COLOR}">Tecnologias</text>
-  {segments}
+  <g clip-path="url(#barClip)">
+    <rect x="{bar_x0}" y="{bar_y}" width="{bar_width}" height="{bar_h}"
+          fill="#F0D8E2"/>
+    {segments}
+  </g>
   {rows}
 </svg>"""
 

@@ -26,7 +26,7 @@ com experiência em <b>back-end georreferenciados</b> e <b>sistemas especialista
 
 <br/>
 
-<h3 align="center">Atualmente</h3>
+<h2 align="center">Atualmente</h2>
 
 <p align="center">
 Estudando temas aplicados a dados geoespaciais:
@@ -34,13 +34,13 @@ Estudando temas aplicados a dados geoespaciais:
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=&message=GeoIA&color=FF1493&style=flat-square"/>
-  <img src="https://img.shields.io/static/v1?label=&message=Geoestatística&color=FF1493&style=flat-square"/>
-  <img src="https://img.shields.io/static/v1?label=&message=Otimização&color=FF1493&style=flat-square"/>
+  <img src="https://img.shields.io/static/v1?label=&message=Geoestat%C3%ADstica&color=FF1493&style=flat-square"/>
+  <img src="https://img.shields.io/static/v1?label=&message=Otimiza%C3%A7%C3%A3o&color=FF1493&style=flat-square"/>
 </p>
 
 <br/>
 
-<h3 align="center">Stack</h3>
+<h2 align="center">Stack</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FF1493?style=for-the-badge&logo=python&logoColor=white"/>
@@ -54,7 +54,7 @@ Estudando temas aplicados a dados geoespaciais:
 
 <br/>
 
-<h3 align="center">Estatísticas</h3>
+<h2 align="center">Estatísticas</h2>
 
 <p align="center">
     <img height="180" src="./assets/stats.svg" alt="Estatísticas do GitHub" />
