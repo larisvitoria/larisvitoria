@@ -9,7 +9,7 @@ com experiência em <b>back-end georreferenciados</b> e <b>sistemas especialista
 </p>
 
 <p align="center">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=larisvitoria.profile&left_color=%239B0355&right_color=%23DE047A&left_text=Visitas" alt="Contador de Visitas" />
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=larisvitoria.profile&left_color=%239B0355&right_color=%23DE047A&left_text=Visitas ao perfil" alt="Contador de Visitas" />
 </p>
 
 <p align="center">
