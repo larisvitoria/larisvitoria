@@ -58,7 +58,7 @@ Estudando temas aplicados a dados geoespaciais:
 
 <p align="center">
     <img height="180" src="./assets/stats.svg" alt="Estatísticas do GitHub" />
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;
     <img height="180" src="./assets/top-langs.svg" alt="Tecnologias" />
 </p>
 
