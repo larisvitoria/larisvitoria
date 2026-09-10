@@ -13,13 +13,13 @@ com experiência em <b>back-end georreferenciados</b> e <b>sistemas especialista
         <img 
             alt="LinkedIn"
             title="Conecte-se comigo no LinkedIn"
-            src="https://custom-icon-badges.demolab.com/badge/LinkedIn-%2B300-FF1493?logo=linkedin&logoColor=white&style=for-the-badge&labelColor=FF1493"
+            src="https://custom-icon-badges.demolab.com/badge/LinkedIn-%2B300-FF1493?logo=linkedin&logoColor=white&style=for-the-badge&labelColor=DE047A"
         />
     </a>
     <a href="mailto:larissa.vitoria@alu.ufc.br" target="_blank">
         <img 
             alt="Gmail"
-            src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=FF1493&logoColor=white&labelColor=FF1493&style=for-the-badge"
+            src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=DE047A&logoColor=white&labelColor=DE047A&style=for-the-badge"
         />
     </a>
 </p>
