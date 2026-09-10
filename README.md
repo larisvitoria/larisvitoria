@@ -34,7 +34,7 @@ Estudando temas aplicados a dados geoespaciais:
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=&message=GeoIA&color=FF1493&style=flat-square"/>
-  <img src="https://img.shields.io/static/v1?label=&message=Geoestat%C3%ADstica&color=FF1493&style=flat-square"/>
+  <img src="https://img.shields.io/static/v1?label=&message=Geoestat%C3%ADstica&color=DE047A&style=flat-square"/>
   <img src="https://img.shields.io/static/v1?label=&message=Otimiza%C3%A7%C3%A3o&color=FF1493&style=flat-square"/>
 </p>
 
@@ -43,13 +43,13 @@ Estudando temas aplicados a dados geoespaciais:
 <h2 align="center">Stack</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-FF1493?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-DE047A?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-FF1493?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Django-FF1493?style=for-the-badge&logo=django&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Django-DE047A?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-FF1493?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-FF1493?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-DE047A?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/QGIS-FF1493?style=for-the-badge&logo=qgis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostGIS-FF1493?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostGIS-DE047A?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </p>
 
 <br/>
