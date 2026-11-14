@@ -19,7 +19,7 @@
   <g clip-path="url(#barClip)">
     <rect x="30" y="58" width="390" height="10"
           fill="#F0D8E2"/>
-    <rect x="30.00" y="58" width="138.46" height="10" fill="#AD1457"/><rect x="168.46" y="58" width="121.73" height="10" fill="#D81B60"/><rect x="290.19" y="58" width="65.19" height="10" fill="#FF1493"/><rect x="355.38" y="58" width="51.98" height="10" fill="#FF4FA3"/><rect x="407.36" y="58" width="7.27" height="10" fill="#FF74B4"/><rect x="414.64" y="58" width="3.66" height="10" fill="#FF93C6"/><rect x="418.30" y="58" width="1.70" height="10" fill="#FFB0D4"/>
+    <rect x="30.00" y="58" width="138.46" height="10" fill="#AD1457"/><rect x="168.46" y="58" width="121.73" height="10" fill="#D81B60"/><rect x="290.19" y="58" width="65.20" height="10" fill="#FF1493"/><rect x="355.38" y="58" width="51.98" height="10" fill="#FF4FA3"/><rect x="407.36" y="58" width="7.27" height="10" fill="#FF74B4"/><rect x="414.64" y="58" width="3.66" height="10" fill="#FF93C6"/><rect x="418.30" y="58" width="1.70" height="10" fill="#FFB0D4"/>
   </g>
   
         <g transform="translate(30.0, 92)">
