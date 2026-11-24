@@ -19,49 +19,49 @@
   <g clip-path="url(#barClip)">
     <rect x="30" y="58" width="390" height="10"
           fill="#F0D8E2"/>
-    <rect x="30.00" y="58" width="161.11" height="10" fill="#AD1457"/><rect x="191.11" y="58" width="126.64" height="10" fill="#D81B60"/><rect x="317.75" y="58" width="51.35" height="10" fill="#FF1493"/><rect x="369.10" y="58" width="40.94" height="10" fill="#FF4FA3"/><rect x="410.05" y="58" width="5.73" height="10" fill="#FF74B4"/><rect x="415.77" y="58" width="2.89" height="10" fill="#FF93C6"/><rect x="418.66" y="58" width="1.34" height="10" fill="#FFB0D4"/>
+    <rect x="30.00" y="58" width="368.92" height="10" fill="#AD1457"/><rect x="398.92" y="58" width="11.66" height="10" fill="#D81B60"/><rect x="410.59" y="58" width="4.73" height="10" fill="#FF1493"/><rect x="415.31" y="58" width="3.77" height="10" fill="#FF4FA3"/><rect x="419.08" y="58" width="0.53" height="10" fill="#FF74B4"/><rect x="419.61" y="58" width="0.27" height="10" fill="#FF93C6"/><rect x="419.88" y="58" width="0.12" height="10" fill="#FFB0D4"/>
   </g>
   
         <g transform="translate(30.0, 92)">
           <circle cx="6" cy="-4" r="6" fill="#AD1457"/> 
           <text x="20" fill="#333333" font-size="13">Jupyter Notebook</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">41.3%</text>
+                font-size="12.5">94.6%</text>
         </g>
         <g transform="translate(225.0, 92)">
           <circle cx="6" cy="-4" r="6" fill="#D81B60"/> 
           <text x="20" fill="#333333" font-size="13">Python</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">32.5%</text>
+                font-size="12.5">3.0%</text>
         </g>
         <g transform="translate(30.0, 118)">
           <circle cx="6" cy="-4" r="6" fill="#FF1493"/> 
           <text x="20" fill="#333333" font-size="13">C++</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">13.2%</text>
+                font-size="12.5">1.2%</text>
         </g>
         <g transform="translate(225.0, 118)">
           <circle cx="6" cy="-4" r="6" fill="#FF4FA3"/> 
           <text x="20" fill="#333333" font-size="13">Java</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">10.5%</text>
+                font-size="12.5">1.0%</text>
         </g>
         <g transform="translate(30.0, 144)">
           <circle cx="6" cy="-4" r="6" fill="#FF74B4"/> 
           <text x="20" fill="#333333" font-size="13">HTML</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">1.5%</text>
+                font-size="12.5">0.1%</text>
         </g>
         <g transform="translate(225.0, 144)">
           <circle cx="6" cy="-4" r="6" fill="#FF93C6"/> 
           <text x="20" fill="#333333" font-size="13">CSS</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">0.7%</text>
+                font-size="12.5">0.1%</text>
         </g>
         <g transform="translate(30.0, 170)">
           <circle cx="6" cy="-4" r="6" fill="#FFB0D4"/> 
           <text x="20" fill="#333333" font-size="13">Makefile</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">0.3%</text>
+                font-size="12.5">0.0%</text>
         </g>
 </svg>
