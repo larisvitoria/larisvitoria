@@ -19,20 +19,20 @@
   <g clip-path="url(#barClip)">
     <rect x="30" y="58" width="390" height="10"
           fill="#F0D8E2"/>
-    <rect x="30.00" y="58" width="368.93" height="10" fill="#AD1457"/><rect x="398.93" y="58" width="11.66" height="10" fill="#D81B60"/><rect x="410.59" y="58" width="4.73" height="10" fill="#FF1493"/><rect x="415.31" y="58" width="3.77" height="10" fill="#FF4FA3"/><rect x="419.08" y="58" width="0.53" height="10" fill="#FF74B4"/><rect x="419.61" y="58" width="0.27" height="10" fill="#FF93C6"/><rect x="419.88" y="58" width="0.12" height="10" fill="#FFB0D4"/>
+    <rect x="30.00" y="58" width="366.99" height="10" fill="#AD1457"/><rect x="396.99" y="58" width="13.63" height="10" fill="#D81B60"/><rect x="410.62" y="58" width="4.70" height="10" fill="#FF1493"/><rect x="415.32" y="58" width="3.75" height="10" fill="#FF4FA3"/><rect x="419.07" y="58" width="0.52" height="10" fill="#FF74B4"/><rect x="419.60" y="58" width="0.26" height="10" fill="#FF93C6"/><rect x="419.86" y="58" width="0.12" height="10" fill="#FFB0D4"/><rect x="419.98" y="58" width="0.02" height="10" fill="#FFC9E1"/>
   </g>
   
         <g transform="translate(30.0, 92)">
           <circle cx="6" cy="-4" r="6" fill="#AD1457"/> 
           <text x="20" fill="#333333" font-size="13">Jupyter Notebook</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">94.6%</text>
+                font-size="12.5">94.1%</text>
         </g>
         <g transform="translate(225.0, 92)">
           <circle cx="6" cy="-4" r="6" fill="#D81B60"/> 
           <text x="20" fill="#333333" font-size="13">Python</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
-                font-size="12.5">3.0%</text>
+                font-size="12.5">3.5%</text>
         </g>
         <g transform="translate(30.0, 118)">
           <circle cx="6" cy="-4" r="6" fill="#FF1493"/> 
@@ -61,6 +61,12 @@
         <g transform="translate(30.0, 170)">
           <circle cx="6" cy="-4" r="6" fill="#FFB0D4"/> 
           <text x="20" fill="#333333" font-size="13">Makefile</text>
+          <text x="183.0" text-anchor="end" fill="#9B7385"
+                font-size="12.5">0.0%</text>
+        </g>
+        <g transform="translate(225.0, 170)">
+          <circle cx="6" cy="-4" r="6" fill="#FFC9E1"/> 
+          <text x="20" fill="#333333" font-size="13">Mako</text>
           <text x="183.0" text-anchor="end" fill="#9B7385"
                 font-size="12.5">0.0%</text>
         </g>
